@@ -7,10 +7,9 @@ Wikify obtiene definiciones de wikipedia para tus textos y los muestra en una et
 
 Usos
 ======
-$(document).ready(function()
-	{
-		//Busca dentro de los elementos con clase "wiki" las palabras "lorem" y "dolor"
-		//en la Wikipedia y muestra la definición
+
+	//Busca dentro de los elementos con clase "wiki" las palabras "lorem" y "dolor"
+	//en la Wikipedia y muestra la definición
 	$('.wiki').wikify
 	({
 		definitions: ['Lorem', 'dolor']
@@ -28,4 +27,3 @@ $(document).ready(function()
 		});			
 	});
 
-	});
